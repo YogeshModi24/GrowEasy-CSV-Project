@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: apps/api/Dockerfile
+    ports:
+      - "3005:3005"
+    environment:
+      - PORT=3005
+      - GROQ_API_KEY=${GROQ_API_KEY}
+      - ALLOWED_ORIGIN=http://localhost:3000
+    restart: always

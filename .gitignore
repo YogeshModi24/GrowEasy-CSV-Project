@@ -1,0 +1,27 @@
+# Dependencies
+node_modules
+.pnpm-store
+
+# Next.js build outputs
+.next
+out
+
+# TypeScript / general build outputs
+dist
+build
+*.tsbuildinfo
+
+# Env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE configurations
+.vscode
+.idea
+.DS_Store
+
+# Turborepo cache
+.turbo

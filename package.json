@@ -1,0 +1,15 @@
+{
+  "name": "groweasy-monorepo",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo dev",
+    "lint": "turbo run lint",
+    "clean": "rm -rf node_modules **/node_modules **/.next **/dist"
+  },
+  "devDependencies": {
+    "turbo": "^2.0.4",
+    "typescript": "^5.4.5"
+  },
+  "packageManager": "pnpm@9.15.0"
+}
