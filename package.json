@@ -1,6 +1,10 @@
 {
   "name": "groweasy-monorepo",
   "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo dev",
@@ -13,3 +17,4 @@
   },
   "packageManager": "pnpm@9.15.0"
 }
+
