@@ -1,7 +1,7 @@
 # GrowEasy CRM - Production-Grade AI CSV Importer Monorepo
 
-- **Hosted App**: <HOSTED_URL>
-- **GitHub Repository**: <REPO_URL>
+- **Hosted App**: https://grow-easy-csv-project-web.vercel.app/
+- **GitHub Repository**: https://github.com/YogeshModi24/GrowEasy-CSV-Project
 
 An advanced, stateless, AI-powered CSV Importer structured as a Turborepo monorepo. It automatically maps, cleans, normalizes, and validates any raw CSV spreadsheet format into standard GrowEasy CRM records in a single pass using Groq.
 
